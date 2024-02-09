@@ -17,6 +17,13 @@ print(type(e))
 print(type(f))
 print(type(g))
 
-h=i=20
+
+h,i=20,10
 print("This is the values of h",h)
 print("This is the value of i",i)
+
+
+j = int(10.5)
+k = float(10)
+print(type(j))
+print(type(k))
