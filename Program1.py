@@ -4,5 +4,6 @@ print(a/b)
 print(a//b)
 
 c = 20
-b = c
-print(b)
+d = c
+print(id(c))
+print(id(d))

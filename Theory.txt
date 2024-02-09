@@ -6,3 +6,5 @@ Types :
 3. Boolean
 4. Set
 5. Sequence Type : Strings,Tuples,List
+
+When we try to find the address of both the variables it provides the same address because we are storing the same value on to both the variables
