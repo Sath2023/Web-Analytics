@@ -1,0 +1,8 @@
+DATA TYPES  
+In Python the data type is automatically allocated based on the input value by the onterpreter itself
+Types : 
+1. Numeric : Integer,Complex Numbers and Float
+2. Dictionary
+3. Boolean
+4. Set
+5. Sequence Type : Strings,Tuples,List
