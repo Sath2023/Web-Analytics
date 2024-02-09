@@ -1,4 +1,4 @@
-a = -19
+"""a = -19
 b = 10
 print(a/b)
 print(a//b)
@@ -28,4 +28,14 @@ print("")
 j = int(10.5)
 k = float(10)
 print(j,type(j))
-print(k,type(k))
+print(k,type(k))"""
+
+n=153
+sum = 0
+b = len(str(n))
+while(n!=0):
+    r = n % 10
+    a = n // 10
+    sum = sum + (r**b)
+print(r)
+print(a)
