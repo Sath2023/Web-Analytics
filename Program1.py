@@ -25,5 +25,5 @@ print("This is the value of i",i)
 
 j = int(10.5)
 k = float(10)
-print(type(j))
-print(type(k))
+print(j,type(j))
+print(k,type(k))
