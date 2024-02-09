@@ -3,11 +3,13 @@ b = 10
 print(a/b)
 print(a//b)
 
+#Finding the address of the variables
 c = 20
 d = c
 print(id(c))
 print(id(d))
 
+#Type
 e = 10
 f = 10.4
 g = "Naanu Naagarahaavu"
