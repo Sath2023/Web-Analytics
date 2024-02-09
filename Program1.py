@@ -16,3 +16,7 @@ g = "Naanu Naagarahaavu"
 print(type(e))
 print(type(f))
 print(type(g))
+
+h=i=20
+print("This is the values of h",h)
+print("This is the value of i",i)
