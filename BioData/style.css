@@ -1,12 +1,14 @@
 marquee{
     font-size: 30px;
-    background-color:blue;
+    background-color: blue;
     color: red;
 }
 
 section {
     margin: 20px;
     padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
 }
 
 p{
@@ -39,4 +41,7 @@ ol
 }
 .d{
     text-align: right;
+}
+body{
+    background-color:burlywood;
 }
