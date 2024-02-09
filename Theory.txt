@@ -11,3 +11,5 @@ When we try to find the address of both the variables it provides the same addre
 
 TYPE CASTING :
 1. 
+
+QUESTION Check for the logics of Armstrong Number, Palindrome, Spy Number, Neon Number, Fibonacci Number, Prime Number, Happy Number
