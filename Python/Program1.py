@@ -1,4 +1,4 @@
-a = -19
+"""a = -19
 b = 10
 print(a/b)
 print(a//b)
@@ -28,4 +28,14 @@ print("")
 j = int(10.5)
 k = float(10)
 print(j,type(j))
-print(k,type(k))
+print(k,type(k))"""
+
+n = int(input("Enter a number : "))
+if(n%2!=0):
+    print("It is a prime number")
+elif(n==2):
+    print("It is a prime number")
+elif(n==1):
+    print("It is not a prime number")
+else:
+    print("It is not a prime number")
