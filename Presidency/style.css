@@ -1,0 +1,39 @@
+table,tr,th{
+    border: 3px solid black;
+    height: 100px;
+    width: 1910px;
+    background-color: yellow;
+}
+marquee{
+    text-align: center;
+    background-color: violet;
+    color: red;
+    font-size: 40px;
+}
+img{
+    margin: auto;
+}
+section{
+    border-radius: 10px;
+    background-color: bisque;
+    text-align: center;
+}
+.st{
+    border-radius: 20px;
+    background-color:chocolate;
+    text-align: left;
+    font-size: 30px;
+}
+h5{
+    text-align: center;
+}
+body{
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.sst
+{
+    background-color: darkblue;
+    color: white;
+    text-align: left;
+}
