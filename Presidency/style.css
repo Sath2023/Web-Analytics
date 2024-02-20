@@ -1,7 +1,7 @@
 table,tr,th{
     border: 3px solid black;
     height: 100px;
-    width: 1910px;
+    width: 1895px;
     background-color: yellow;
 }
 marquee{
@@ -39,4 +39,35 @@ body{
     height: fit-content;
     width: 18%;
     font-size: 20px;
+}
+.img 
+{
+    background-image: url("bg.jpeg");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 800px;
+    overflow: auto;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    object-fit: contain;
+    object-position: -20% 0%;
+}
+.img::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+.text {
+  width: 640px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+.text {
+  padding-left: 100px;
+  padding-right: 100px;
 }
