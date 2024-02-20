@@ -40,27 +40,13 @@ body{
     width: 18%;
     font-size: 20px;
 }
-.img 
+.aa 
 {
-    background-image: url("bg.jpeg");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: 800px;
-    overflow: auto;
-    color: white;
     text-align: center;
-    margin-top: 0px;
-    padding-bottom: 50px;
-    object-fit: contain;
-    object-position: -20% 0%;
+    height: 2%;
+    width: 30%;
 }
-.img::after 
-{
-  content: "";
-  clear: both;
-  display: table;
-}
+
 .text {
   width: 640px;
   height: auto;
@@ -70,4 +56,7 @@ body{
 .text {
   padding-left: 100px;
   padding-right: 100px;
+}
+.aa{
+    text-align: center;
 }
