@@ -1,4 +1,6 @@
-num = 1234
+num = int(input("Enter a number :"))
+count = 0
 while(num > 0):
-    temp = num % 10
-print(temp)
+    num = num // 10
+    count = count + 1
+print("There are",count,"digits")
