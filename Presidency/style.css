@@ -40,12 +40,6 @@ body{
     width: 18%;
     font-size: 20px;
 }
-.aa 
-{
-    text-align: center;
-    height: 2%;
-    width: 30%;
-}
 
 .text {
   width: 640px;
@@ -58,5 +52,6 @@ body{
   padding-right: 100px;
 }
 .aa{
+    border-radius: 10px;
     text-align: center;
 }

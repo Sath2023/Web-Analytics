@@ -1,6 +1,13 @@
-"""Write a pyhton program to check the group of box according to the weight condition
-#Cond 1 : 50 - 60 --> Group a
-#Cond 2 : 61 - 70 --> Group B
-Cond 2 : 71 - 80 --> Group C
-Cond 2 : >80 --> Group D"""
-
+weight = int(input("Enter the weight : "))
+if(weight < 50):
+    print("Under Weight")
+elif((weight>50) or (weight<=60)):
+    print("Belongs to group A")
+elif((weight>61) or (weight<=70)):
+    print("Belongs to group B")
+elif((weight>70) or (weight<=80)):
+    print("Belongs to group C")
+elif(weight>80):
+     print("Belongs to group D")
+else:
+    print("Error")
