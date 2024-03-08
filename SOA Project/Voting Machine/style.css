@@ -1,0 +1,47 @@
+h1{
+    background-image: linear-gradient(orange,white,green);
+    text-align: center;
+    font-family:'Trebuchet MS';
+}
+h1{
+    font-size: 60px;
+}
+table,tr,th{
+
+    height: 100px;
+    width: 1895px;
+    border: 1px solid white;
+    background-color: aliceblue;
+}
+body{
+    background-color: black;
+}
+
+section{
+    background-color: black;
+
+    text-align: center;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+    color: blue;
+}
+h3{
+    font-size: 40px;
+    color: white;
+}
+.img{
+    text-align: right;
+    height: 60%;
+    width: 60%;
+}
+aside {
+    width: 40%;
+    float: right;
+}
+.img{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
