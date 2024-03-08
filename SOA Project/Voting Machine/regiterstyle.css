@@ -1,0 +1,18 @@
+.header{
+    background-image: linear-gradient(orange,white,green);
+    text-align: center;
+    font-size: 40px;
+}
+body{
+    background-color: black;
+}
+.frm{
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    background: violet;
+    width: auto;
+}
+h3{
+    font-size: 30px;
+}
