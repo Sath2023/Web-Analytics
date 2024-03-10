@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: darkblue;
+}
+.header{
+    font-size: 40px;
+    background-image: linear-gradient(orange,white,green);
+}
+h2{
+    font-size: 30px;
+}
+form{
+    background-color: white;
+    text-align: center;
+}
