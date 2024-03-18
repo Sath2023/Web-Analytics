@@ -9,3 +9,12 @@ section{
     border: 10px solid white;
     border-radius: 20px;
 }
+body{
+    mask-repeat: no-repeat;
+    text-align: center;
+}
+form{
+    background-image: linear-gradient(rgb(115, 115, 131),rgb(0, 253, 0));
+    color: antiquewhite;
+    font-size: 20px;
+}
