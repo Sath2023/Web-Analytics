@@ -1,0 +1,7 @@
+Design a web form for signing up with the following fields
+1. Name
+2. DoB
+3. EmpID
+4. Email
+5. Website
+6. Sugn Up button

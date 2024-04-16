@@ -1,0 +1,38 @@
+h1{
+    background-color: cyan;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+p{
+    text-align: left;
+    font-family: 'Times New Roman';
+}
+table,th,td{
+    background-color:orange;
+    text-align: center;
+    text-decoration: dotted;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Times New Roman';
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    font-family: 'Times New Roman';
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: 'Times New Roman';
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.st{
+    text-align: center;
+    text-decoration: double;
+    font-family: 'Times New Roman';
+}

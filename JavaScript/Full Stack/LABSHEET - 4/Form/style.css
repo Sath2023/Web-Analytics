@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(yellow,black);
+}
+body{
+    background-repeat: no-repeat;
+}
+section{
+    background-image: linear-gradient(red,blue);
+    text-align: left;
+    font-size: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+}
+
+
+button{
+    font-size: 15px;
+    color: red;
+    background-color: blue;
+}
+footer{
+    background-image: linear-gradient(bisque,grey);
+    text-align: center;
+    font-size: 20px;
+
+}
+.img{
+    text-align: center;
+    background-image: linear-gradient(red,blue);
+    font-size: 20px;
+    color: azure;
+}

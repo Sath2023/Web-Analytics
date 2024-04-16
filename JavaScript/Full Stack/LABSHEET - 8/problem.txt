@@ -1,0 +1,7 @@
+Create an online student registration page for Presidency University. The registration page 
+should contain the following fields in the specified foramt and develop a javascript validation code as per the conditions 
+specified for each fields
+1. FirstName (should not be empty,Nmae should contain only alpabets and minimum length of 6 characters)
+2. LastName (Only aplhabets should be entered)
+3. Email ID (Should not contain any invalid and must follow the standard pattern)
+4. Password (Minimum 6 characters including text and numbers)

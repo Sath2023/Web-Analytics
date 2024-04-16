@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Fruit List</title>
+</head>
+<body>
+  <h1>Fruits</h1>
+  <p id="demo"></p>
+
+  <input type="text" id="newFruit" placeholder="Enter new fruit">
+  <button id="addFruitButton">Add Fruit</button>
+
+  <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"]; // Array of fruits
+    const fruitListElement = document.getElementById("demo");
+    const newFruitInput = document.getElementById("newFruit");
+    const addFruitButton = document.getElementById("addFruitButton");
+
+    function displayFruits() {
+      const fruitList = "<ul>"; // Start of the unordered list
+      fruits.forEach(fruit => {
+        fruitList += `<li>${fruit}</li>`; // Add each fruit as a list item
+      });
+      fruitListElement.innerHTML = fruitList + "</ul>"; // Update paragraph with complete list
+    }
+
+    displayFruits(); // Initial display
+
+    addFruitButton.addEventListener("click", function() {
+      const newFruitName = newFruitInput.value.trim();
+      if (newFruitName) {
+        fruits.push(newFruitName); // Add new fruit to the array
+        newFruitInput.value = ""; // Clear input field
+        displayFruits(); // Update the displayed list
+      }
+    });
+  </script>
+</body>
+</html

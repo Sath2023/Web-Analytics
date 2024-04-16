@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travels - Booking Form</title>
+    <style>
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var type = document.getElementById("bookingType").value;
+            var destination = document.getElementById("destination").value;
+            var departureDate = document.getElementById("departureDate").value;
+            var returnDate = document.getElementById("returnDate").value;
+            var errorMsg = "";
+
+            if (name === "") {
+                errorMsg += "Name is required. <br>";
+            }
+            if (email === "") {
+                errorMsg += "Email is required. <br>";
+            }
+            if (phone === "") {
+                errorMsg += "Phone number is required. <br>";
+            }
+            if (type === "") {
+                errorMsg += "Please select a booking type. <br>";
+            }
+            if (destination === "") {
+                errorMsg += "Destination is required. <br>";
+            }
+            if (departureDate === "") {
+                errorMsg += "Departure date is required. <br>";
+            }
+            if (type === "Tour" || type === "Flight") {
+                if (returnDate === "") {
+                    errorMsg += "Return date is required. <br>";
+                }
+            }
+
+            if (errorMsg !== "") {
+                document.getElementById("error").innerHTML = errorMsg;
+                return false;
+            }
+
+            // Simulate total cost calculation (replace with actual calculation logic)
+            var baseCost = 1000;
+            var additionalCost = 0;
+            if (document.getElementById("insurance").checked) {
+                additionalCost += 50;
+            }
+            if (document.getElementById("transfers").checked) {
+                additionalCost += 30;
+            }
+            var totalCost = baseCost + additionalCost;
+            document.getElementById("totalCost").innerHTML = "Total Cost: $" + totalCost;
+
+            // Integration with payment gateway would be implemented here (for demo, commented out)
+            // if (!processPayment(creditCardInfo)) {
+            //     return false;
+            // }
+
+            return true;
+        }
+
+        function showReturnDate() {
+            var type = document.getElementById("bookingType").value;
+            var returnDateDiv = document.getElementById("returnDateDiv");
+            if (type === "Tour" || type === "Flight") {
+                returnDateDiv.style.display = "block";
+            } else {
+                returnDateDiv.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Wanderlust Travels - Booking Form</h1>
+    <p id="error" class="error"></p>
+    <form onsubmit="return validateForm()">
+        <h2>Personal Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <h2>Travel Preferences</h2>
+        <label for="bookingType">Type of Booking:</label>
+        <select id="bookingType" name="bookingType" onchange="showReturnDate()">
+            <option value="">Select</option>
+            <option value="Tour">Tour Package</option>
+            <option value="Flight">Flight Ticket</option>
+            <option value="Accommodation">Hotel Stay</option>
+        </select><br>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br>
+        <label for="departureDate">Departure Date:</label>
+        <input type="date" id="departureDate" name="departureDate" required><br>
+        <div

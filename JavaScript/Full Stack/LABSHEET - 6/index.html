@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form>
+            <div id="name-group">
+                <label for="fname">Name : </label>
+                <input type="text" name="name" id="fname"/>
+                <br />
+                <br />
+            </div>
+
+            <div id="dob-group">
+                <label for="dob"> DOB : </label>
+                <input type="date" name="" id="dob" onchange="displayFields()"/>
+                <br />
+                <br />
+            </div>
+
+            <div id="email-group">
+                <label for="email"> Email : </label>
+                <input type="email" name="" id="email"/>
+                <br />
+                <br />
+            </div>
+
+            <div id="web-group">
+                <label for="website"> Website : </label>
+                <input type="url" name="" id="website"/>
+                <br />
+                <br />
+            </div>
+
+            <div id="employeeid-group">
+                <label for="empID"> EmpID : </label>
+                <input type="text" name="" id="empID"/>
+                <br />
+                <br />
+            </div>
+            <input type="button" value="Submit" id="submit"/>
+        </form>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

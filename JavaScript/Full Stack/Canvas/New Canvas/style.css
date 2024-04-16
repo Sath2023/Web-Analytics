@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    background-image: linear-gradient(black,orange);
+    color: white;
+}
+#mycanvas
+{
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+}
