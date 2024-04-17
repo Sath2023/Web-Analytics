@@ -32,13 +32,14 @@ table{
     width: 100%;
     border: 2px solid black;
     background-color: whitesmoke;
+    text-align: center;
 }
 .a{
     border: 2px solid black;
 }
 .cu
 {
-    font-size: 25px;
+    font-size: 15px;
     background-image: linear-gradient(red,yellow);
     border-radius: 10px;
 }
@@ -55,11 +56,14 @@ h2{
 }
 .rr{
     background-image: linear-gradient(burlywood,bisque);
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
 .a{
     border-radius: 5px;
     height: 100px;
     width: auto;
+}
+body{
+    background-image: linear-gradient(red,blue,whitesmoke);
 }
