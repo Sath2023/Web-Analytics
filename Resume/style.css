@@ -28,6 +28,9 @@ table,th,td{
     border: 2px solid black;
     border-collapse: collapse;
 }
+table{
+    width:fit-content;
+}
 
 th{
     background-color:yellow;
