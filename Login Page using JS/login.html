@@ -1,55 +1,55 @@
 <html> 
     <head>
-    <title> Login Validation </title> 
-    <script language="javascript">
-    Function
-    formValidator() 
-    {
-        var username=document.getElementById('uname'); 
-        var password=document.getElementById('pwd'); 
-        if(isEmpty(username)&&isEmpty(password))
+        <title> Login Validation </title> 
+        <script language="javascript">
+        Function
+        formValidator() 
         {
-            alert("enter something"); 
-            document.form1.uname.focus();
-        } 
-        if(!isEmpty(username)&&isEmpty(password)&&isAlphabet(username))
-        {
-            alert("Please enter password"); 
-            document.form1.pwd.focus();
-        } 
-        if(!isEmpty(username)&&!isEmpty(password)&&isAlphabet(username))
-        {
-            return true;
-        }
-        else 
-        {
-            if(!isEmpty(username)&&!isEmpty(password)&&!isAlphabet(username)) 
+            var username=document.getElementById('uname'); 
+            var password=document.getElementById('pwd'); 
+            if(isEmpty(username)&&isEmpty(password))
             {
-                alert("Please Enter only alphabets for username"); 
+                alert("enter something"); 
                 document.form1.uname.focus();
+            } 
+            if(!isEmpty(username)&&isEmpty(password)&&isAlphabet(username))
+            {
+                alert("Please enter password"); 
+                document.form1.pwd.focus();
+            } 
+            if(!isEmpty(username)&&!isEmpty(password)&&isAlphabet(username))
+            {
+                return true;
             }
+            else 
+            {
+                if(!isEmpty(username)&&!isEmpty(password)&&!isAlphabet(username)) 
+                {
+                    alert("Please Enter only alphabets for username"); 
+                    document.form1.uname.focus();
+                }
+            }
+            return false; 
         }
-        return false; 
-    }
 
-    function isEmpty(elem) 
-    {
-        if(elem.value.length==0) 
+        function isEmpty(elem) 
         {
-            return true; 
+            if(elem.value.length==0) 
+            {
+                return true; 
+            }
+            return false; 
         }
-        return false; 
-    }
-    function isAlphabet(elem) 
-    {
-        var alphaExp=/^[a-z A-Z]+$/; 
-        if(elem.value.match(alphaExp))
+        function isAlphabet(elem) 
         {
-            return true;
-        } 
-    }
-    </script>
-</head>
+            var alphaExp=/^[a-z A-Z]+$/; 
+            if(elem.value.match(alphaExp))
+            {
+                return true;
+            } 
+        }
+        </script>
+    </head>
 <body bgColor=megastar>
     <br />
     <br />
@@ -61,14 +61,14 @@
         <td>Username:</td>
         <td><input type=text value="" name="uname"></td>
     </tr>
-
     <tr> 
         <td>Password:</td>
-        <td><input type=password value="" name="pwd"></td> </tr>
+        <td><input type=password value="" name="pwd"></td> 
+    </tr>
     <tr>
-    <td><input type=submit value="SUBMIT" name="btn1"></td> 
-    <td><input type=reset value="CANCEL" name="btn2"></td>
-</tr> 
+        <td><input type=submit value="SUBMIT" name="btn1"></td> 
+        <td><input type=reset value="CANCEL" name="btn2"></td>
+    </tr> 
 </table>
 </center> 
 </form>

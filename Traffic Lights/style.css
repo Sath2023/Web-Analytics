@@ -1,0 +1,15 @@
+.light {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+  }
+  .red { background-color: red; }
+  .yellow { background-color: yellow; }
+  .green { background-color: green; }
+  .blink {
+    animation: blinker 1s 10;
+  }
+  @keyframes blinker {
+    50% { opacity: 0; }
+  }
